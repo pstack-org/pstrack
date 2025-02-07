@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { roadmap } from '@prisma/client'
 
-import prisma from '@/prisma/prisma'
+import prisma from '@/server/prisma/index'
 import { getCachedRoadmap, updateCachedRoadmap } from '@/utils/redis'
 
 export async function GET() {

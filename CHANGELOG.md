@@ -1,5 +1,6 @@
 ### Changelog
 
+- 1.2.23: ENHANCEMENT: use [waitUntil](https://vercel.com/docs/functions/functions-api-reference#waituntil) for sending emails
 - 1.2.22: FEAT: add logout icon
 - 1.2.21: FEAT: add leetcoder card
 - 1.1.21: FIX: authorization issue

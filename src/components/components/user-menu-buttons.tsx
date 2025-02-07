@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation'
 import { LogOut, UserPen } from 'lucide-react'
 
-import { logout } from '@/supabase/auth.service'
+import { logout } from '@/server/supabase/auth.service'
 
 import { DropdownMenuItem } from '@/components/ui/dropdown-menu'
 

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
-import prisma from '@/prisma/prisma'
-import { getAllLeetcoders, processLeetcoder } from '@/prisma/dao/api/kickOff.dao'
+import prisma from '@/server/prisma/index'
+import { getAllLeetcoders, processLeetcoder } from '@/server/prisma/dao/api/kickOff.dao'
 import { sendAdminEmail } from '@/utils/email/sendAdminEmail'
 
 /**

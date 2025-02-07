@@ -1,6 +1,6 @@
 import { group_progress, roadmap } from '@prisma/client'
 
-import prisma from '@/prisma/prisma'
+import prisma from '@/server/prisma/index'
 
 export const fetchRoadmap = async (groupProgress: group_progress[]): Promise<roadmap[]> => {
   try {

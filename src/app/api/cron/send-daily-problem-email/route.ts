@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-import prisma from '@/prisma/prisma'
+import prisma from '@/server/prisma/index'
 import { sendDailyProblemEmail } from '@/utils/email/sendDailyProblemEmail'
 import { sendAdminEmail } from '@/utils/email/sendAdminEmail'
 

@@ -1,6 +1,6 @@
 'use server'
 
-import { createClient } from '@/supabase/server'
+import { createClient } from '@/server/supabase/server'
 import { ActionResponse } from '@/types/auth.type'
 import { SigninSchema, SignUpSchema } from '@/types/schema/auth.schema'
 

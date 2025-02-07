@@ -1,6 +1,6 @@
 'use client'
 
-import { logout } from '@/supabase/auth.service'
+import { logout } from '@/server/supabase/auth.service'
 
 import { DropdownMenuItem } from '@/components/ui/dropdown-menu'
 

@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 
 import { isValidUUID } from '@/utils/isValidUUID'
-import { fetchLeetcoder } from '@/prisma/dao/leetcoders.dao'
+import { fetchLeetcoder } from '@/server/prisma/dao/leetcoders.dao'
 
 import Header from '@/components/landing/header'
 import { TrackFooter } from '@/components/track/track-footer'

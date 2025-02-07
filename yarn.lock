@@ -1153,6 +1153,11 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
+"@tanstack/query-core@5.66.0":
+  version "5.66.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.66.0.tgz#163f670b3b4e3b3cdbff6698ad44b2edfcaed185"
+  integrity sha512-J+JeBtthiKxrpzUu7rfIPDzhscXF2p5zE/hVdrqkACBP8Yu0M96mwJ5m/8cPPYQE9aRNvXztXHlNwIh4FEeMZw==
+
 "@tanstack/query-devtools@5.65.0":
   version "5.65.0"
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.65.0.tgz#37da5e911543b4f6d98b9a04369eab0de6044ba1"
@@ -1165,6 +1170,13 @@
   dependencies:
     "@tanstack/query-devtools" "5.65.0"
 
+"@tanstack/react-query@^5.66.0":
+  version "5.66.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.66.0.tgz#9f7aa1b3e844ea6a0ad2ee61fccaed76e614b865"
+  integrity sha512-z3sYixFQJe8hndFnXgWu7C79ctL+pI0KAelYyW+khaNJ1m22lWrhJU2QrsTcRKMuVPtoZvfBYrTStIdKo+x0Xw==
+  dependencies:
+    "@tanstack/query-core" "5.66.0"
+
 "@tanstack/react-table@^8.20.6":
   version "8.20.6"
   resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.20.6.tgz#a1f3103327aa59aa621931f4087a7604a21054d0"
@@ -1176,6 +1188,21 @@
   version "8.20.5"
   resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.20.5.tgz#3974f0b090bed11243d4107283824167a395cf1d"
   integrity sha512-P9dF7XbibHph2PFRz8gfBKEXEY/HJPOhym8CHmjF8y3q5mWpKx9xtZapXQUWCgkqvsK0R46Azuz+VaxD4Xl+Tg==
+
+"@trpc/client@^11.0.0-rc.747":
+  version "11.0.0-rc.747"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-11.0.0-rc.747.tgz#81400b7175356a98321b1718f0f1e924a89a691b"
+  integrity sha512-xTOY5i/sH+cxVnHhPvudrNAKs8Uw3e0wX2WgWYJ0+dGDobMG8zqd/Tb+u4nvVHioVcUOLZomu5bRRhbrNT0GLg==
+
+"@trpc/react-query@^11.0.0-rc.747":
+  version "11.0.0-rc.747"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-11.0.0-rc.747.tgz#c84f99c5d937f3e5c2f3993457a65e0528ca952b"
+  integrity sha512-hVsbHmNMtbW5ylUVU/KkvVR2lwRkhPPELPf2/ukA6Z72zdHE1zwGu4sCiDBM7csbZjba8uQquDiUfIaaHZPoOg==
+
+"@trpc/server@^11.0.0-rc.747":
+  version "11.0.0-rc.747"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-11.0.0-rc.747.tgz#bb0ed35be223e26f26468d42351fac5e085ae7ba"
+  integrity sha512-uPhKUirYbaViNBwY/lvEhmCxlRAxWPYaMcH+lm2REIpbj7TPycwh2rI4bNJwiMoktplLriiEWVQflnid9zdC1w==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
@@ -1818,7 +1845,7 @@ cli-truncate@^4.0.0:
     slice-ansi "^5.0.0"
     string-width "^7.0.0"
 
-client-only@0.0.1:
+client-only@0.0.1, client-only@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
@@ -4395,6 +4422,11 @@ semver@^7.6.0, semver@^7.6.3:
   version "7.7.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.0.tgz#9c6fe61d0c6f9fa9e26575162ee5a9180361b09c"
   integrity sha512-DrfFnPzblFmNrIZzg5RzHegbiRWg7KMR7btwi2yjHwx06zsUbO5g613sVwEV7FTwmzJu+Io0lJe2GJ3LxqpvBQ==
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/server-only/-/server-only-0.0.1.tgz#0f366bb6afb618c37c9255a314535dc412cd1c9e"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
 
 set-function-length@^1.2.2:
   version "1.2.2"

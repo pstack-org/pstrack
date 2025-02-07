@@ -1,4 +1,4 @@
-import { fetchLeetcoder } from '@/prisma/dao/leetcoders.dao'
+import { fetchLeetcoder } from '@/server/prisma/dao/leetcoders.dao'
 
 import ProfileView from '@/components/views/profile-view'
 import { getUser } from '@/hooks/get-user'

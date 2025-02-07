@@ -3,7 +3,7 @@ import { LogIn } from 'lucide-react'
 import { groups } from '@prisma/client'
 
 import { getUser } from '@/hooks/get-user'
-import { getAllGroups } from '@/prisma/dao/groups.dao'
+import { getAllGroups } from '@/server/prisma/dao/groups.dao'
 
 import { Logo } from '@/components/components/logo'
 import { Button } from '@/components/ui/button'

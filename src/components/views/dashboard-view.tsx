@@ -1,5 +1,5 @@
 import { Leetcoders } from '@/types/leetcoder.type'
-import { fetchPendingLeetcoders } from '@/prisma/dao/leetcoders.dao'
+import { fetchPendingLeetcoders } from '@/server/prisma/dao/leetcoders.dao'
 
 import { requestsColumns } from '@/components/requests/columns'
 import { RequestsTable } from '@/components/requests/requests-table'

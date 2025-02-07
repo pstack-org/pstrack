@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { group_progress } from '@prisma/client'
 
-import prisma from '@/prisma/prisma'
+import prisma from '@/server/prisma/index'
 import { sendAdminEmail } from '@/utils/email/sendAdminEmail'
 
 /**

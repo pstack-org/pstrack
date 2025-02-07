@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { TbLoader2 } from 'react-icons/tb'
 import { LuGithub } from 'react-icons/lu'
 
-import { oauthLogin } from '@/supabase/auth.service'
+import { oauthLogin } from '@/server/supabase/auth.service'
 
 import { Button } from '@/components/ui/button'
 

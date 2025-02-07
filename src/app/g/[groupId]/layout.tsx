@@ -3,8 +3,8 @@ import { groups } from '@prisma/client'
 import { notFound } from 'next/navigation'
 
 import { getUser } from '@/hooks/get-user'
-import { checkGroupExists, getAllGroups } from '@/prisma/dao/groups.dao'
-import { isGroupFull, isLeetcoderApproved } from '@/prisma/dao/leetcoders.dao'
+import { checkGroupExists, getAllGroups } from '@/server/prisma/dao/groups.dao'
+import { isGroupFull, isLeetcoderApproved } from '@/server/prisma/dao/leetcoders.dao'
 
 import { TrackHeader } from '@/components/track/track-header'
 import { TableSkeleton } from '@/components/track/table-skeleton'

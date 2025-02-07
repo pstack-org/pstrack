@@ -1,6 +1,6 @@
 import { leetcoders, Prisma, submissions } from '@prisma/client'
 
-import prisma from '@/prisma/prisma'
+import prisma from '@/server/prisma/index'
 import { sendSolveProblemsRemider } from '@/utils/email/sendSolveProblemsRemider'
 
 type LeetcoderWithSubmissions = leetcoders & {
