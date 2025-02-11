@@ -5,7 +5,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { httpBatchLink } from '@trpc/client'
 
-import { trpc } from '@/_trpc/client'
+import { trpc } from '@/trpc/client/index'
 
 const Provider = ({ children }: { children: ReactNode }) => {
   const [queryClient] = useState(

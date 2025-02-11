@@ -1,7 +1,6 @@
-import { publicProcedure, router } from '@/server/trpc/trpc'
-
-import prisma from '@/server/prisma'
 import { roadmap } from '@prisma/client'
+import prisma from '@/server/prisma'
+import { publicProcedure, router } from '@/trpc/server/trpc'
 
 export const appRouter = router({
   getRoadmap: publicProcedure.query(async (): Promise<roadmap[]> => {
