@@ -74,6 +74,7 @@
 		"redis-typescript": "^0.1.2",
 		"server-only": "^0.0.1",
 		"supabase": "^2.2.1",
+		"superjson": "^2.2.2",
 		"tailwind-merge": "^2.6.0",
 		"tailwindcss-animate": "^1.0.7",
 		"ts-node": "^10.9.2",

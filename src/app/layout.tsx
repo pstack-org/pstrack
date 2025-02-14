@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { Toaster } from '@/components/ui/toaster'
 import { cn } from '@/lib/utils'
 import './globals.css'
-import Provider from '@/_trpc/provider'
+import TRPCProvider from '@/trpc/client/provider'
 
 const leagueSpartan = League_Spartan({
   weight: ['700', '900'],
@@ -47,7 +47,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className={cn('bg-zinc-950 font-roboto', roboto.className, leagueSpartan.className)}>
-        <Provider>{children}</Provider>
+        <TRPCProvider>{children}</TRPCProvider>
         <Toaster />
         {prod && <Analytics />}
       </body>

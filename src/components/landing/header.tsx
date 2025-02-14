@@ -1,3 +1,5 @@
+'use server'
+
 import Link from 'next/link'
 import { LogIn } from 'lucide-react'
 import { groups } from '@prisma/client'

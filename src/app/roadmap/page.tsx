@@ -1,10 +1,16 @@
-import { c } from '@/server/trpc/serverClient'
+'use client'
 
 import RoadmapView from '@/components/views/roadmap-view'
+import { trpc } from '@/trpc/client'
 
-const RoadmapPage = async () => {
-  const roadmap = await c.getRoadmap()
-  return <RoadmapView roadmap={roadmap} />
+const RoadmapPage = () => {
+  const { data: roadmap, isLoading } = trpc.getRoadmap.useQuery()
+
+  if (isLoading) {
+    return <div>Loading...</div>
+  }
+
+  return <RoadmapView roadmap={roadmap || []} />
 }
 
 export default RoadmapPage
